@@ -1,0 +1,38 @@
+body {
+    position: relative; 
+    margin: 0px;
+    background-color: rgba(247, 189, 189, 0.4) 
+ 
+}
+
+.container {
+    display:block; 
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+img {
+    width: 450px;
+    height: 300px;
+    margin: 10px; 
+    
+    transition: all 1s;  
+}
+
+img:hover {
+    transform: scale(1.1)
+}
+
+h1 {
+    
+    font-family: fantasy;
+    font-size: 3em;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    background-color: black; 
+    width: 900px; 
+    text-align: center;
+    box-shadow: 4px 4px 5px #888888;
+    margin-top: 10px; 
+
+}
